@@ -1,48 +1,50 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Temperature Converter (C, F, K)</title>
-  <link rel="stylesheet" href="./style.css">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Temperature Converter (C, F, K)</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <html lang="en-us">
+      <head>
+        <meta charset="utf-8" />
+        <title>Temperature Converter</title>
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<html lang="en-us">
-	<head>
-		<meta charset="utf-8">
-		<title>Temperature Converter</title>
-		
-		<link rel="stylesheet" href="./style.css">
-	</head>
-	<body>
-		<div class="wrapper">
-			<div class="card">
-				<header>Temperature Converter</header>
-				<div>
-					<div class="temp-fields">
-						<h3 class="spacing">Celsius</h3>
-						<input id="celsius" value="0"/>
-					</div>
-					<div class="temp-fields">
-						<h3 class="spacing">Fahrenheit</h3>
-						<input id="fahrenheit" value="0"/>
-					</div>
-					<div class="temp-fields">
-						<h3 class="spacing">Kelvin</h3>
-						<input id="kelvin" value="0"/>
-					</div>
-				</div>
-				<div>
-					<button id="submit" class="spacing" type="submit" value="submit">Convert</button>
-					<button id="reset" class="spacing" type="reset" value="reset">Reset</button>
-				</div>
-			</div>
-		</div>
-	</body>
-</html>
-<!-- partial -->
-  <script  src="./script.js"></script>
-
-</body>
+        <link rel="stylesheet" href="./style.css" />
+      </head>
+      <body>
+        <div class="wrapper">
+          <div class="card">
+            <header>Temperature Converter</header>
+            <div>
+              <div class="temp-fields">
+                <h3 class="spacing">Celsius (<sup>o</sup>C)</h3>
+                <input class="input_fild" id="celsius" value="0" />
+              </div>
+              <div class="temp-fields">
+                <h3 class="spacing">Fahrenheit(<sup>o</sup>F)</h3>
+                <input class="input_fild" id="fahrenheit" value="0" />
+              </div>
+              <div class="temp-fields">
+                <h3 class="spacing">Kelvin(K)</h3>
+                <input class="input_fild" id="kelvin" value="0" />
+              </div>
+            </div>
+            <div>
+              <button id="submit" class="spacing" type="submit" value="submit">
+                Convert
+              </button>
+              <button id="reset" class="spacing" type="reset" value="reset">
+                Reset
+              </button>
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>
+    <!-- partial -->
+    <script src="./script.js"></script>
+  </body>
 </html>
